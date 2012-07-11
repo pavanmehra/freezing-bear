@@ -1,4 +1,4 @@
 freezing-bear
 =============
 
-Repository of random stuff
+Repository of random stuff.
