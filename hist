@@ -1,0 +1,186 @@
+    1  cd trial3
+    2  ls -al
+    3  git log 
+    4  git tag v1.0 06eaa8369adb9eb6305f9b621b62347f85e05938
+    5  git tag
+    6  git log --pretty=oneline --decorate
+    7  git branch v1.0-bugfix v1.0
+    8  git log --pretty=oneline --decorate
+    9  git branch
+   10  git branch -d v1.0-bugfix
+   11  git log --pretty=oneline --decorate
+   12  git tag -d v1.0
+   13  git log --pretty=oneline --decorate
+   14  git tag -a v1.0 06eaa8369adb9eb6305f9b621b62347f85e05938
+   15  git log --pretty=oneline --decorate
+   16  git tag
+   17  git cat-file -t v1.0
+   18  git cat-file -p v1.0
+   19  pwd
+   20  ls -al
+   21  ls -al .git/objects/
+   22  ls-al
+   23  ls -al
+   24  ls -al .git
+   25  cd objecta
+   26  cd objects
+   27  pwd
+   28  ls -al .git/objects/06/eaa8369adb9eb6305f9b621b62347f85e05938 
+   29  ls -al
+   30  gitk --all
+   31  git branch branch1
+   32  vi README 
+   33  git add README
+   34  git co -m "Eighth line"
+   35  git ci -m "Eighth line"
+   36  git co branch1
+   37  vi README 
+   38  git add README
+   39  git ci -m "Added eight line"
+   40  gitk --all
+   41  git branch
+   42  git mergemaster
+   43  git merge master
+   44  ls -al .git
+   45  vi README 
+   46  gitk --all
+   47  git add README
+   48  git ci -m "Merge conflict resolved"
+   49  gitk --all
+   50  git branch
+   51  vi README 
+   52  git log
+   53  git status
+   54  gitk --all
+   55  ls -al
+   56  cd ..
+   57  ls -al
+   58  cat .gitconfig 
+   59  cd freezing-bear/
+   60  cat .git/config 
+   61  git remote -v
+   62  pwd
+   63  cd .git/config 
+   64  cat .git/config 
+   65  cd ..
+   66  ls -al
+   67  cd trial
+   68  cd trial3
+   69  pwd
+   70  pwd
+   71  cd ..
+   72  mkdir remote
+   73  cd remote/
+   74  sl -al
+   75  ls -al
+   76  git init --bare
+   77  ls -al
+   78  pwd
+   79  cat config 
+   80  git log
+   81  cd ../trial3/
+   82  pwd
+   83  git remote add upstream ///c/Users/Pavan/remote
+   84  git remote add upstream file:///c/Users/Pavan/remote
+   85  cd
+   86  pwd
+   87  ls -al remote/
+   88  git remote -v
+   89  pwd
+   90  cd remote/
+   91  git remote -v
+   92  cd ../trial3
+   93  git remote -v
+   94  git remote rm upstream
+   95  git remote add upstream file:///c/Users/Pavan/remote
+   96  git remote -v
+   97  pwd
+   98  cd ../remote/
+   99  ls -al
+  100  cd ../trial3
+  101  ls -al
+  102  ls -al .git/refs/remotes
+  103  cat .git/config 
+  104  pwd
+  105  git push upstream master
+  106  cat .git/config 
+  107  pwd
+  108  cd ../remote/
+  109  ls -al
+  110  cd objects/
+  111  ls -al
+  112  cd ../
+  113  ../trial
+  114  pwd
+  115  cd ../trial3
+  116  ls -al
+  117  pwd
+  118  cd ../remote/
+  119  git --all
+  120  gitk --all
+  121  cd ../trial3
+  122  gitk --all
+  123  cd ../remote/
+  124  gitk --all
+  125  pwd
+  126  git log
+  127  pwd
+  128  cd ..
+  129  ls -al
+  130  pwd
+  131  git clone file:///c/Users/Pavan/remote trial2
+  132  ls -al
+  133  cd trial
+  134  cd trial2
+  135  git log
+  136  ls -al
+  137  vi README 
+  138  git add README
+  139  git commit -m "Added ninth line"
+  140  git push
+  141  pwd
+  142  cd ../remote/
+  143  git log
+  144  pwd
+  145  cd ../trial3
+  146  git fetch upsteam master
+  147  pwd
+  148  git fetch upstream master
+  149  git log
+  150  pwd
+  151  gitk --all
+  152  git merge FETCH_HEAD 
+  153  gitk --all
+  154  pwd
+  155  echo "Hello World" > test.txt
+  156  git add test.txt
+  157  git commit -m "Added a new file"
+  158  git push
+  159  cat .git/config 
+  160  pwd
+  161  git branch --set-upstream master upstream/master
+  162  git push
+  163  pwd
+  164  cd ../freezing-bear/
+  165  ls -al
+  166  cat ./git/config
+  167  pwd
+  168  ls -al .git
+  169  ls -al .git/config
+  170  cat .git/config 
+  171  git pull
+  172  git pull origin master
+  173  ls -al
+  174  git remote add senthil https://github.com/inbioz/freezing-bear.git
+  175  git branch senthil-bugfix
+  176  git checkout  senthil-bugfix
+  177  git fetch senthil master
+  178  git merge FETCH_HEAD
+  179  git log
+  180  git show HEAD
+  181  git checkout master
+  182  git merge senthil-bugfix
+  183  git push
+  184  git push
+  185  history
+  186  history > hist
